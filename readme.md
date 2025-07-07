@@ -1,4 +1,4 @@
-# Fullstack Interview Challenge: Image Layout and Event Logging
+# OhCrop Interview Challenge
 
 This challenge is designed to assess your fundamental skills in frontend and backend development using React and Node.js. You'll be working with an existing project that includes a React-based interface and a Node.js/Express backend. Your task will be to improve both parts in small but meaningful ways.
 
