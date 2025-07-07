@@ -9,8 +9,8 @@ This challenge is designed to assess your fundamental skills in frontend and bac
 Begin by cloning the repository from the following GitHub link:
 
 ```bash
-git clone https://github.com/YOUR_ORG_OR_USERNAME/react-image-log-challenge.git
-cd react-image-log-challenge
+git clone https://github.com/OhCropBPDC/interview-test.git
+cd interview-test
 ```
 
 This repo consists of two folders - frontend (React app) and backend (Express server)
