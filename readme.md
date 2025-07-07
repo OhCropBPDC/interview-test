@@ -80,6 +80,6 @@ After implementing the GET route, add a new button to the frontend labeled "View
 
 
 ## 5. Submission
-We want you to clone this repository onto your local machines, complete the above mentioned tasks and make 2-3 minute long video explaining your approach and demonstrating the final result in the browser. The video should clearly show the browser after you have made the changes. You may use Microsoft Clipchamp for making the video. We will be sending out a google form shortly where you need to upload this video. 
+We want you to clone this repository onto your local machines, complete the above mentioned tasks and make a 2-3 minute long video explaining your approach and demonstrating the final result in the browser. The video should clearly show the browser after you have made the changes. You may use Microsoft Clipchamp for making the video. We will be sending out a google form shortly where you need to upload this video. 
 
 **Deadline** - Today, 7pm GST
