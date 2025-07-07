@@ -1,0 +1,96 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.club-logo {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 3px solid #333;
+  object-fit: cover;
+}
+
+.typewriter-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 2px;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 3px solid #333;
+  white-space: nowrap;
+  animation: typing 4s steps(29, end), blink-cursor 0.8s infinite, restart 8s infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-cursor {
+  from, to { border-color: transparent; }
+  50% { border-color: #333; }
+}
+
+@keyframes restart {
+  0%, 50% { width: 100%; }
+  51%, 99% { width: 0; }
+  100% { width: 0; }
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 700px;
+  width: 1000px;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  border: 2px solid black;
+  position: absolute;
+}
+
+.img:nth-child(1) {
+  left: 0;
+  top: 0;
+}
+
+.img:nth-child(2) {
+  left: 300px;
+  top: 300px;
+}
+
+.img:nth-child(3) {
+  left: 600px;
+  top: 0;
+}
+
+.log-btn {
+  margin-top: 30px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  position: relative;
+  z-index: 10;
+}
